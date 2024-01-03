@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["microwonk"]
 edition = "2021"
 license = "MIT"
+description = "A Bevy Rendering Plugin for Raytraced Voxel Worlds."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,6 +16,5 @@ opt-level = 1
 
 [profile.release]
 codegen-units = 1
-
 
 [dependencies]
